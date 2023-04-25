@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import Theme from '../../styles/theme'
+import Theme from '../../styles/theme';
+import Media from '../../styles/media';
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -13,6 +14,10 @@ export const HeroContainer = styled.div`
     justify-content: space-between;
     height: 450px;
 
+      ${Media.tablet} {
+        height: 332px;
+      }
+
     .logo-container {
       .logo--img {
         margin-top: 1rem;
@@ -23,6 +28,10 @@ export const HeroContainer = styled.div`
       display: flex;
       flex-direction: column;
       gap: 1.25rem;
+
+        ${Media.tablet} {
+          gap: 0;
+        }
   
       .main-title {
         font: ${Theme.typography.ibmB1};
@@ -30,12 +39,23 @@ export const HeroContainer = styled.div`
         padding-bottom: .85rem;
         letter-spacing: -1;
         width: 1015px;
+
+        ${Media.tablet} {
+          font: ${Theme.typography.ibmB2};
+          width: 70%;
+        }
       }
   
       .main-parag {
         font: ${Theme.typography.ibmR1};
         color: ${Theme.colors.purple};
         width: 825px;
+
+        ${Media.tablet} {
+          font-size: 1.125rem;
+          line-height: 28px;
+          width: 80%;
+        }
       }
     }
   }
