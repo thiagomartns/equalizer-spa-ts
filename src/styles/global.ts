@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import Background from '../assets/img/bg-main-desktop.png'
 import BackgroundTablet from '../assets/img/bg-main-tablet.png';
+import BackgroundMobile from '../assets/img/bg-main-mobile.png';
 import Media from './media';
 
 export default createGlobalStyle`
@@ -22,6 +23,10 @@ export default createGlobalStyle`
         background-image: url(${BackgroundTablet});
       }
 
+      ${Media.mobile} {
+        background-image: url(${BackgroundMobile});
+      }
+
       .app-content {
         width: 100%;
         display: flex;
@@ -31,6 +36,10 @@ export default createGlobalStyle`
 
         ${Media.tablet} {
           padding: 1rem 2rem;
+        }
+
+        ${Media.mobile} {
+          padding: 1.75rem;
         }
       }
     }
