@@ -1,4 +1,5 @@
 import GlobalStyles from './styles/global'
+import Hero from './components/Hero/index'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <div className="app-content">
         <GlobalStyles />
-        Hello world
+        <Hero />
       </div>
     </div>
   )
