@@ -13,3 +13,5 @@ const defaultTheme = {
     ibmR2: '400 1rem/26px "IBM Plex Sans", sans-serif'
   },
 }
+
+export default defaultTheme;
