@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import Background from '../assets/img/bg-main-desktop.png'
+import BackgroundTablet from '../assets/img/bg-main-tablet.png';
+import Media from './media';
 
 export default createGlobalStyle`
 
@@ -16,12 +18,20 @@ export default createGlobalStyle`
       width: 100vw;
       position: relative;
 
+      ${Media.tablet} {
+        background-image: url(${BackgroundTablet});
+      }
+
       .app-content {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 1rem 5rem;
+
+        ${Media.tablet} {
+          padding: 1rem 2rem;
+        }
       }
     }
   }
