@@ -60,6 +60,9 @@ export const HeroContainer = styled.div`
           font: ${Theme.typography.ibmR2};
           height: 100%;
           width: 100%;
+          font-size: 1.125rem;
+          line-height: 28px;
+          width: 80%;
         }
       }
     }
