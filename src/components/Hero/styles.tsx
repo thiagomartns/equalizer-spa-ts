@@ -19,6 +19,11 @@ export const HeroContainer = styled.div`
         gap: 3rem;
       }
 
+      ${Media.mobile} {
+        height: 100%;
+        gap: 3.75rem;
+      }
+
     .logo-container {
       .logo--img {
         margin-top: 1rem;
@@ -49,6 +54,11 @@ export const HeroContainer = styled.div`
           height: 100%;
           width: 100%;
         }
+
+        ${Media.mobile} {
+          font: ${Theme.typography.ibmB3};
+          width: 100%;
+        }
       }
   
       .main-parag {
@@ -64,6 +74,12 @@ export const HeroContainer = styled.div`
           line-height: 28px;
           width: 80%;
         }
+
+        ${Media.mobile} {
+          font: ${Theme.typography.ibmR3};
+          width: 100%;
+          text-align: justify;
+        }
       }
     }
   }
@@ -78,6 +94,10 @@ export const HeroContainer = styled.div`
       width: 25%;
       right: -25px;
       top: -25px;
+    }
+
+    ${Media.mobile} {
+      display: none;
     }
   }
 
