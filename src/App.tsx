@@ -1,6 +1,7 @@
 import GlobalStyles from './styles/global'
 import Hero from './components/Hero/index'
 import Main from './components/Main/index';
+import Footer from './components/Footer/index'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <GlobalStyles />
         <Hero />
         <Main />
+        <Footer />
       </div>
     </div>
   )
