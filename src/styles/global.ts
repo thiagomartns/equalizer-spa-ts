@@ -10,13 +10,10 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 
     .App {
-      width: 100vw;
       height: 1832px;
       background-image: url(${Background});
-      width: 100vw;
       position: relative;
 
       ${Media.tablet} {
@@ -30,9 +27,10 @@ export default createGlobalStyle`
       .app-content {
         width: 100%;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
         justify-content: center;
-        padding: 1rem 5rem;
+        padding: 1rem 6rem;
 
         ${Media.tablet} {
           padding: 1rem 2rem;
