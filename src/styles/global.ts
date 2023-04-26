@@ -12,7 +12,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
 
     .App {
-      height: 1832px;
+      height: 100%;
       background-image: url(${Background});
       position: relative;
 
