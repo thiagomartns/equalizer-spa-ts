@@ -28,7 +28,7 @@ export const MainContainer = styled.div`
     z-index: 2;
 
     ${Media.mobile} {
-      width: 60%;
+      width: 50%;
       position: initial;
     }
   }
