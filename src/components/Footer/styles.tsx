@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Theme from '../../styles/theme';
+import Media from '../../styles/media';
 
 export const FooterContainer = styled.div`
   margin-top: 10rem;
@@ -14,9 +15,19 @@ export const FooterContainer = styled.div`
     width: 55%;
     justify-content: space-between;
 
+    ${Media.tablet} {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
     .logo {
       height: 30%;
+
+      ${Media.tablet} {
+        width: 30%;
+      }
     }
+
     .rights {
       font: ${Theme.typography.ibmR3};
       color: ${Theme.colors.purple};
