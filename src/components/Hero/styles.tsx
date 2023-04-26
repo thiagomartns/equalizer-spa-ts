@@ -7,6 +7,7 @@ export const HeroContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   gap: 2rem;
+  margin-bottom: 10rem;
 
   .logo-text--container {
     display: flex;
@@ -48,6 +49,7 @@ export const HeroContainer = styled.div`
         padding-bottom: .85rem;
         letter-spacing: -1;
         width: 1015px;
+        z-index: 2;
 
         ${Media.tablet} {
           font: ${Theme.typography.ibmB2};
@@ -87,7 +89,7 @@ export const HeroContainer = styled.div`
   .img {
     width: 20%;
     position: absolute;
-    right: 17px;
+    right: 0;
     top: -40px;
 
     ${Media.tablet} {
