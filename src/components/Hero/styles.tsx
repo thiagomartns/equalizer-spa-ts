@@ -5,9 +5,13 @@ import Media from '../../styles/media';
 export const HeroContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100%;
   gap: 2rem;
   margin-bottom: 10rem;
+
+  ${Media.mobile} {
+    padding: 1.75rem;
+    margin-bottom: 6rem;
+  }
 
   .logo-text--container {
     display: flex;
@@ -94,7 +98,7 @@ export const HeroContainer = styled.div`
 
     ${Media.tablet} {
       width: 25%;
-      right: -25px;
+      /* right: -5%; */
       top: -25px;
     }
 
