@@ -70,16 +70,20 @@ export const MainContainer = styled.div`
         width: 100%;
         padding: 1rem;
         border-radius: 12px;
-        text-align: center;
         border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        position: relative;
 
         &:hover {
           cursor: pointer;
         }
 
-        img {
+        &:first-child img {
           height: 20px;
-          width: 20px;
+          margin-bottom: 2.5px;
         }
       }
       .apple-btn {

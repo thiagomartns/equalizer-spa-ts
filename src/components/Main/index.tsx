@@ -1,8 +1,8 @@
 // import React from 'react'
 import { MainContainer } from "./styles"
 import MobileImage from '../../assets/img/illustration-app.png';
-// import AppleLogo from '../../assets/img/icon-apple.svg';
-// import AndroidLogo from '../../assets/img/icon-android.svg';
+import AppleLogo from '../../assets/img/icon-apple.svg';
+import AndroidLogo from '../../assets/img/icon-android.svg';
 import MainPattern from '../../assets/img/bg-pattern-2.svg';
 
 const index = () => {
@@ -15,11 +15,11 @@ const index = () => {
         <h1 className="info-h1">$4 <span> /month</span></h1>
         <div className="btns-container">
           <button className="apple-btn btn">
-            {/* <img src={AppleLogo} alt="" /> */}
+            <img src={AppleLogo} alt="" />
             iOS Download
           </button>
           <button className="android-btn btn">
-            {/* <img src={AndroidLogo} alt="" /> */}
+            <img src={AndroidLogo} alt="" />
             Android Download
           </button>
         </div>
