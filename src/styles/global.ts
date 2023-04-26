@@ -37,7 +37,7 @@ export default createGlobalStyle`
         }
 
         ${Media.mobile} {
-          padding: 1.75rem;
+          padding: 0;
         }
       }
     }
