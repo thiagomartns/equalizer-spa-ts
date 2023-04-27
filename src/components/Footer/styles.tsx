@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Theme from '../../styles/theme';
 import Media from '../../styles/media';
 
 export const FooterContainer = styled.div`
@@ -14,47 +13,5 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     gap: 2.5rem;
     padding: 0 0 3rem 1rem;
-  }
-
-  .rights-content {
-    display: flex;
-    width: 55%;
-    justify-content: space-between;
-
-    ${Media.tablet} {
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    ${Media.mobile} {
-      flex-direction: column;
-      gap: 1.5rem;
-      width: 100%;
-    }
-
-    .logo {
-      height: 30%;
-
-      ${Media.tablet} {
-        width: 30%;
-      }
-
-      ${Media.mobile} {
-        width: 50%;
-      }
-    }
-
-    .rights {
-      font: ${Theme.typography.ibmR3};
-      color: ${Theme.colors.purple};
-
-      ${Media.mobile} {
-        width: 100%;
-      }
-
-      span {
-        font: 700 1rem/26px 'IBM Ples Sans', sans-serif;
-      }
-    }
   }
 `
