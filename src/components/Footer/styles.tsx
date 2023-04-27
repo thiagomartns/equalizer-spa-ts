@@ -57,25 +57,4 @@ export const FooterContainer = styled.div`
       }
     }
   }
-
-  .social-media {
-    display: flex;
-    align-self: center;
-    align-items: center;
-    gap: 1rem;
-
-    ${Media.mobile} {
-      align-self: flex-start;
-    }
-
-    .icon {
-      &:hover {
-        cursor: pointer;
-      }
-
-      &:hover path {
-        fill: ${Theme.colors.orange};
-      }
-    }
-  }
 `
