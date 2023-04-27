@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-content: flex-start;
-  padding: 2rem 0 5rem;
+  padding: 2rem 0;
 
   ${Media.mobile} {
     flex-direction: column;
@@ -61,6 +61,7 @@ export const FooterContainer = styled.div`
   .social-media {
     display: flex;
     align-self: center;
+    align-items: center;
     gap: 1rem;
 
     ${Media.mobile} {

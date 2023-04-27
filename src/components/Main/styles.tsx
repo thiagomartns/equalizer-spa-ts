@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
   border-radius: 12px;
   z-index: 1;
   position: relative;
-  margin-top: 5.5rem;
+  margin-top: 4rem;
 
   ${Media.mobile} {
     display: flex;
@@ -51,7 +51,7 @@ export const MainContainer = styled.div`
     ${Media.mobile} {
       width: 100%;
       position: initial;
-      gap: 1rem;
+      gap: 1.25rem;
     }
 
     .info-h2 {
@@ -69,8 +69,7 @@ export const MainContainer = styled.div`
       line-height: 52px;
       display: flex;
       align-items: center;
-      gap: .5rem;
-      font-size: 2.5rem;
+      gap: 1rem;
 
       span {
         font: ${Theme.typography.ibmR1};
