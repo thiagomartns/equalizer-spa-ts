@@ -27,12 +27,6 @@ export const HeroContainer = styled.div`
         height: 100%;
         gap: 3.75rem;
       }
-
-    .logo-container {
-      .logo--img {
-        margin-top: 1rem;
-      }
-    }
   }
 
   .img {
@@ -43,7 +37,6 @@ export const HeroContainer = styled.div`
 
     ${Media.tablet} {
       width: 25%;
-      /* right: -5%; */
       top: -25px;
     }
 
